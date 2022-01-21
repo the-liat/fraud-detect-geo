@@ -30,7 +30,7 @@ R_1nN3Y8x060v3hKR,73.252.133.137,37.7906036376953125,-122.2411956787109375,94606
 ```
 
 Make sure you have an up to date `IP2LOCATION-LITE-DB9.BIN` file. The file
-is updated every month. You get by downloading the DB9-lite here:
+is updated every month. You get it by downloading the DB9-lite from here:
 https://lite.ip2location.com/ip2location-lite
 
 You'll need to register for a free account.
