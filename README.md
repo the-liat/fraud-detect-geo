@@ -5,8 +5,8 @@
 
 Install Python and pipenv
 
-[Python](https://www.python.org/)
-[pipenv](https://pipenv.pypa.io/en/latest/)
+- [Python](https://www.python.org/)
+- [pipenv](https://pipenv.pypa.io/en/latest/)
 
 Then run:
 
