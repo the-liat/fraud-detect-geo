@@ -16,7 +16,7 @@ pipenv install
 
 ## Usage
 
-Make sure the data.csv file in the working directory. 
+Make sure the **data.csv** file in the working directory. 
 Its format is:
 
 ```
@@ -29,7 +29,7 @@ R_cHeuuHngZ2HX42d,73.222.190.197,37.7906036376953125,-122.2411956787109375,94606
 R_1nN3Y8x060v3hKR,73.252.133.137,37.7906036376953125,-122.2411956787109375,94606
 ```
 
-Make sure you have an up to date `IP2LOCATION-LITE-DB9.BIN` file. The file
+Make sure you have an up to date **IP2LOCATION-LITE-DB9.BIN** file. The file
 is updated every month. You get it by downloading the DB9-lite from here:
 https://lite.ip2location.com/ip2location-lite
 
