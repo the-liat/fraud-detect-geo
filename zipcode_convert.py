@@ -45,7 +45,11 @@ def main():
              "Country_IP,City_IP,zipcode_IP,Lat_IP,Long_IP"
 
     filename = 'converted_GEO_location.csv'
-    output = open(filename).read().split('\n')
+    try:
+        output = open(filename).read().split('\n')
+    except Exception as e:
+        output = [header]
+
     start = len(output) - 1
     for i, record in enumerate(records[start:]):
         index = start + i
@@ -66,7 +70,3 @@ def main():
         output.append(','.join(record))
     final_output = '\n'.join(output)
     open('converted_GEO_location.csv', 'w').write(final_output)
-
-
-if __name__ == '__main__':
-    main()
